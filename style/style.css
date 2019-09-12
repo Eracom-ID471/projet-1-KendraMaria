@@ -18,23 +18,19 @@ font-style: normal;
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 12px;
 }
 .span-col-4{grid-column: span 4 / auto;}
 
+.span-col-2{grid-column: span 2 / auto;}
 
-.row1 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    height: 15rem;
-}
+.span-col-3{grid-column: span 3 / auto;}
 
+.span-col-6{grid-column: span 6 / auto;}
 
-.row2-3 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10px;
-    height: 20rem;
-}
+.span-row-4{grid-row: span 4 / auto;}
+
+.span-row-6{grid-row: span 6 / auto;}
+
+.span-row-5{grid-row: span 5 / auto;}
