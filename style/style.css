@@ -11,11 +11,30 @@ font-weight: 800;
 font-style: normal;
 }
 
-#containerBody{
-  margin-left: 140px;
-  margin-right: 140px;
+#container{
+  margin-left: 5rem;
+  margin-right: 2rem;
 }
 
-.container{
-margin: 0px;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.span-col-4{grid-column: span 4 / auto;}
+
+
+.row1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    height: 15rem;
+}
+
+
+.row2-3 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    height: 20rem;
 }
